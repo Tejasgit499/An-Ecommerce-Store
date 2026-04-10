@@ -10,6 +10,7 @@ This is a mini-project built in C++ to demonstrate:
 - Standard Template Library (STL) usage:
   - `vector`, `map`, `set`
 - Error handling with `try-catch` and `std::runtime_error`
+- The overall concepts of C++ are implemented
 
 The project simulates a simple E-Commerce Store where:
 - Products can be added
@@ -45,4 +46,4 @@ The project simulates a simple E-Commerce Store where:
 1. Open terminal in the project folder.
 2. Compile all `.cpp` files together:
    ```bash
-   g++ main.cpp Product.cpp Customer.cpp Order.cpp Store.cpp -o ecommerce_store
+   g++ main.cpp Product.cpp Customer.cpp Order.cpp Store.cpp -o ecommerce_store 
