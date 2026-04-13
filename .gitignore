@@ -1,0 +1,13 @@
+# Ignore build directory
+/build/
+
+# Ignore executables
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore CMake cache
+CMakeCache.txt
+CMakeFiles/
