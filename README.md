@@ -11,7 +11,8 @@ This is a mini-project built in C++ to demonstrate:
   - `vector`, `map`, `set`
 - Error handling with `try-catch` and `std::runtime_error`
 - The overall concepts of C++ are implemented
-- Overall all C++ concepts are covered in the project 
+- Overall all C++ concepts are covered in the project
+- Standard Template Library and error handling functions are implemented.
 
 The project simulates a simple E-Commerce Store where:
 - Products can be added
