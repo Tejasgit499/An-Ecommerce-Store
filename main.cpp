@@ -29,6 +29,7 @@ int main() {
         store.placeOrder(5001 , 102 , {2});
 
     } catch (const std::exception& a){
+        //Error Handling
         std::cerr << "\nError : " << a.what() << std::endl;
     }
 
