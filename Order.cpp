@@ -1,6 +1,7 @@
 //Cpp file for Order function
 #include "Order.hpp"
 
+//Constructor implementation
 Order::Order(int orderId, const Customer& customer)
     : orderId(orderId), customer(customer) {}
 
@@ -8,10 +9,12 @@ void Order::addProduct(const Product& product) {
     products.push_back(product);
 }
 
+//Scope resolution operator 
 int Order::getOrderId() const { return orderId; }
 Customer Order::getCustomer() const { return customer; }
 std::vector<Product> Order::getProducts() const { return products; }
 
+//Display function for order
 void Order::display() const {
     std::cout << "Order ID: " << orderId << std::endl;
     customer.display();
