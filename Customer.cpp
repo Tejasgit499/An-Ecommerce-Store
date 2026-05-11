@@ -1,5 +1,7 @@
 #include "Customer.hpp"
 
+
+//Constructor implementation
 Customer::Customer(int id , const std::string& name , const std::string& email )
     :id(id) , name(name) , email(email) {}
 
@@ -7,6 +9,7 @@ int Customer::getId() const {return id ;}
 std::string Customer::getName() const {return name ;}
 std::string Customer::getEmail() const {return email;}
 
+//Display function for Customer
 void Customer::display() const {
     std::cout << "Customer Id : " << id << std::endl;
     std::cout << "Name :" << name << std::endl;
